@@ -1,0 +1,5 @@
+id,type,title,description,likelihood,impact,rag,owner,due_date,mitigation_action,status,date_raised,date_last_reviewed,notes
+R001,Risk,"[Risk title]","[Detailed description of the risk]",High/Med/Low,High/Med/Low,RED/AMBER/GREEN,[Owner name],[DD/MM/YYYY],[Mitigation action and contingency],Open/Closed/Escalated,[DD/MM/YYYY],[DD/MM/YYYY],""
+A001,Assumption,"[Assumption title]","[What is being assumed and why]",,,,[Owner name],[DD/MM/YYYY],[Action if assumption is invalidated],Open/Invalidated/Confirmed,[DD/MM/YYYY],[DD/MM/YYYY],""
+I001,Issue,"[Issue title]","[Detailed description of the issue and its impact]",,,,[Owner name],[DD/MM/YYYY],[Action being taken to resolve],Open/Resolved/Escalated,[DD/MM/YYYY],[DD/MM/YYYY],""
+D001,Dependency,"[Dependency title]","[What depends on what and the impact if not met]",,,,[Owner name],[DD/MM/YYYY],[Action if dependency is not delivered on time],Open/Met/At Risk,[DD/MM/YYYY],[DD/MM/YYYY],""
