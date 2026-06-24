@@ -4,24 +4,41 @@ MIT licensed. Copy, adapt, and use freely — no attribution required.
 Built from real programme delivery across ERP implementations, cloud infrastructure, telecoms, and AI SaaS environments.
 ---
 What's in here
-10 templates covering the full project lifecycle — from initiation to closure, across both PRINCE2 governance and Agile delivery.
+25 templates covering the full project lifecycle — from business case through to closure, across both PRINCE2 governance and Agile delivery.
 PRINCE2 Governance Templates
 Template	What it's for
-Project Initiation Document (PID)	Single source of truth for scope, approach, budget, organisation, and risks at project start
+Business Case	Investment appraisal, options analysis, and Project Board approval
+Project Initiation Document (PID)	Single source of truth for scope, approach, budget, organisation, and risks
 Stage Gate Review	End-of-stage assessment and go/no-go decision for the next stage
-Steering Committee Pack	Weekly or monthly executive status report — RAG, decisions required, escalations
+Steering Committee Pack	Weekly or monthly executive status report — RAG, decisions, escalations
 RAID Log	Risks, Assumptions, Issues, and Dependencies tracking
-Risk Register	Detailed risk tracking with RAG calculation matrix and mitigation planning
-Change Control Log	Scope, budget, schedule, and resource change tracking with impact assessment
-Lessons Learned Register	Structured lessons capture throughout the project, not just at closure
+Risk Register	Detailed risk tracking with RAG matrix and mitigation planning
+Issue Log	Active issue tracking with root cause, resolution options, and escalation
+Dependency Log	Internal, external, technical, and regulatory dependency tracking
+Decision Log	Audit trail of all significant project decisions and rationale
+Change Control Log	Scope, budget, schedule, and resource change tracking
+Communication Plan	Stakeholder communication register, escalation protocol, and channel guide
+Stakeholder Register	Influence/interest matrix, engagement strategies, and stakeholder detail
+Vendor Management Plan	Supplier tracking, SLA monitoring, performance log, and offboarding checklist
+Resource Management Plan	Team plan, skills matrix, capacity plan, and resource risks
+Quality Register	Quality activities, acceptance criteria, defect tracking, and quality metrics
 Benefits Realisation Plan	Benefits tracking from business case through to 12-month post go-live review
-Stakeholder Register	Stakeholder mapping with influence/interest matrix and engagement strategies
+Lessons Learned Register	Structured lessons capture throughout the project, not just at closure
+Project Closure Report	Formal closure — objectives met, budget reconciled, handover confirmed
 Agile Templates
 Template	What it's for
-Sprint Planning	Sprint goal, backlog commitment, capacity planning, and PRINCE2 integration notes
+Sprint Planning	Sprint goal, backlog commitment, capacity planning, and PRINCE2 integration
+Sprint Review	Demonstrated stories, Product Owner acceptance, and backlog updates
 Sprint Retrospective	What went well, what didn't, improvement actions, and team health check
+Daily Standup Log	Standup log, blocker tracker, and sprint burndown snapshot
 Product Backlog	MoSCoW-prioritised backlog with epic tracking and refinement log
 Definition of Done	Standard DoD, go-live DoD, and stage gate DoD for hybrid delivery
+Delivery and Go-Live Templates
+Template	What it's for
+UAT Test Plan	Test scenarios, defect log, daily progress tracking, and UAT sign-off
+Go-Live Checklist	T-48h to T+1 week checklist with go/no-go decision record
+Change Management Plan	People-side change — adoption, training, resistance management, hypercare
+Project Health Check	Monthly self-assessment across 8 dimensions with RAG scoring and trend
 ---
 Who this is for
 Delivery managers and project managers running hybrid PRINCE2/Agile programmes
@@ -36,21 +53,13 @@ Every Agile template includes a PRINCE2 integration section prompting the team t
 ---
 How to use
 Option 1 — Download individual templates
-Click any template link above, then click the Raw button and save the file. Fill in the fields marked `[REQUIRED]` and adapt the rest to your project.
+Click any template link above, click the Raw button, and save the file. Fill in the fields marked with square brackets and adapt the rest to your project.
 Option 2 — Fork the whole repo
-Click Fork at the top of this page to take your own copy of the entire library. Keep it as your personal PM toolkit and contribute improvements back.
+Click Fork at the top of this page to take your own copy of the entire library.
 Option 3 — Clone locally
 ```bash
 git clone https://github.com/TemitopeKadri/prince2-agile-templates.git
 ```
----
-Template structure
-Each template includes:
-Usage notes at the top
-Fields marked `[REQUIRED]` vs optional
-Definitions for all scoring, categorisation, and status fields
-A completed example section where applicable
-Version number and repo reference at the bottom
 ---
 Related tools
 These templates work alongside the other tools in this open-source delivery toolkit:
@@ -59,8 +68,8 @@ cutover-copilot — AI-assisted cutover runbook generator for ERP and infrastruc
 erp-discovery-agent — AI-assisted ERP readiness assessment and gap analysis
 ---
 Contributing
-Contributions welcome. If you have a template that belongs here — particularly for sectors not yet covered (defence, healthcare, government, construction) — please open an issue to discuss before submitting a PR.
-Improvements to existing templates are also welcome. Please keep the style consistent — usage notes at the top, definitions for all fields, PRINCE2/Agile integration notes where relevant.
+Contributions welcome — see CONTRIBUTING.md for guidelines.
+Templates for sectors not yet covered (defence, healthcare, government, construction) are especially welcome.
 Licence
 MIT — see LICENSE
 Free to use commercially or personally. No attribution required, though it is appreciated.
